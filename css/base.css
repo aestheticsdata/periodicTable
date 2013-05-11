@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+}
+
+#outer-container {
+	margin: 0 auto;
+	width: 1260px;
+}
+
+#zoom {
+	width: 140px;
+	height: 140px;
+	background: #000;
+	color: #FFF;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	display: inline-block;
+	float: left;
+	border: 2px solid #DDDDDD;
+}
+
+h1 {
+	float: left;
+	font-size: 65px;
+	font-family: Helvetica, Arial;
+	margin-top: 50px;
+	margin-left: 300px;
+	text-shadow: 0px 0px 4px #888888;
+	cursor: default;
+}
+
+h3 {
+	font-size: 71px;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+p#zoomName , p#zoomNb {
+	text-align: center;
+	font-family: Arial;
+}
+
+
+#container {
+	/*margin: 0 auto;*/
+	/*width: 1260px;*/
+	/*border: 1px solid;*/
+	clear: both;
+}
+
+.cell {
+	/*position: fixed;*/
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Helvetica', 'Arial';
+	cursor: default;
+
+	/*vertical-align: middle;*/
+}
+
+.cell , h1 {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.radioactive {
+	width: 12px;
+	height: 12px;
+	background: url('../img/radioActive1.png') no-repeat;
+	background-size: 100%;
+}
+
+#mouseFollower {
+	/*display: none;*/
+	position: fixed;
+	padding: 7px;
+	min-width: 100px;
+	text-align: center;
+	background: #000;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 15px;
+	opacity: 0.7;
+	border-radius: 4px 4px 4px 4px;
+	border: 1px solid white;
+	box-shadow: 3px 3px 4px #000;
+}
+
+
+
+
+
+
+
+
